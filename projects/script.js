@@ -61,9 +61,9 @@ function showProjects(projects) {
   projectsContainer.innerHTML = projectsHTML;
 
   // vanilla tilt.js
-  VanillaTilt.init(document.querySelectorAll(".tilt"), {
-    max: 20,
-  });
+  // VanillaTilt.init(document.querySelectorAll(".tilt"), {
+  //   max: 20,
+  // });
   // vanilla tilt.js
 
   /* ===== SCROLL REVEAL ANIMATION ===== */
