@@ -1,6 +1,6 @@
 [
   {
-    "name": "Inventory Management System",
+    "name": "Inventory System",
     "desc": "Basic Inventory System based on PHP and MySQL database. Made with HTML, CSS, JavaScript and backend with PHP.",
     "image": "inventory",
     "category": "php",
