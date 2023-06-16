@@ -74,13 +74,7 @@ $(document).ready(function () {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-  strings: [
-    "frontend development",
-    "backend development",
-    "web designing",
-    "android development",
-    "web development",
-  ],
+  strings: ["programming", "app development", "web development"],
   loop: true,
   typeSpeed: 50,
   backSpeed: 25,
@@ -121,7 +115,7 @@ function showProjects(projects) {
     .forEach((project) => {
       projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="./assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
